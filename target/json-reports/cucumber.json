@@ -1,0 +1,50 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-07T15:54:56.158Z",
+        "line": 3,
+        "name": "TC01_kullanici apinin calistini kontrol eder",
+        "description": "",
+        "id": "api-test;tc01-kullanici-apinin-calistini-kontrol-eder",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12503000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici kendisine verilen token ile apiye baglanir",
+            "match": {
+              "location": "gmibank.stepdefinitions.ApiStepDefinitions.kullanici_kendisine_verilen_token_ile_apiye_baglanir()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "API Test",
+    "description": "",
+    "id": "api-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/api.feature",
+    "tags": [
+      {
+        "name": "@api",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

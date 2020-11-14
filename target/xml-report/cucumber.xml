@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.327">
+<testcase classname="API Test" name="TC01_kullanici apinin calistini kontrol eder" time="12.952">
+<system-out><![CDATA[Given kullanici kendisine verilen token ile apiye baglanir..................passed
+]]></system-out>
+</testcase>
+</testsuite>
